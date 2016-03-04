@@ -1,0 +1,2 @@
+echo "curl -I http://localhost:80/index.html"
+curl -I http://localhost:80/index.html
