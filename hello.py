@@ -1,6 +1,7 @@
 def app(environ,start_response):
     status = '200 OK'
-    body = "Hello python"
+    s = environ['QUERY_STRING']
+    body = s.replace("&","\r\n")
     headers = [
         ("Content-Type", "text/plain"),
         ("Contenet-Length",str(len(body)))
