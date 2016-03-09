@@ -1,8 +1,8 @@
 CONFIG = {
-    'mode': 'django',
-    'environment': {
-        'PYTHONPATH': '/home/box/web/ask',
-    },
+    #'mode': 'django',
+    #'environment': {
+    #    'PYTHONPATH': '/home/box/web/ask',
+    #},
     'working_dir': '/home/box/web/ask',
     # 'user': 'www-data',
     # 'group': 'www-data',
