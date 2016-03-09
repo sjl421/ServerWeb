@@ -1,3 +1,7 @@
+
+sudo cp /home/box/web/etc/django_ask.py /etc/gunicorn.d/;
+
+
 sudo cp /home/box/web/etc/hello.py /etc/gunicorn.d/;
 echo "ls /etc/gunicorn.d/";
 ls /etc/gunicorn.d/;
