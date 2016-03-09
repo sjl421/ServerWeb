@@ -1,8 +1,9 @@
-def wsgi_application(environ,start_response):
-	status = '200 OK'
-	headers = [
-		('Content-Type', 'text/plain')
-	]
-	body = "Hello"
-	start_response(status,headers)
-	return [body]
+def app(environ,start_response):
+    status = '200 OK'
+    body = "Hello python"
+    headers = [
+        ("Content-Type", "text/plain"),
+        ("Contenet-Length",str(len(body)))
+    ]
+    start_response(status,headers)
+    return [body]
